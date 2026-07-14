@@ -1,0 +1,18 @@
+django-app/
+│
+├── docker-compose.yml
+├── Dockerfile
+├── .dockerignore
+├── .env
+├── requirements.txt
+├── entrypoint.sh
+│
+├── nginx/
+│   └── default.conf
+│
+├── app/
+│   ├── manage.py
+│   ├── config/
+│   ├── static/
+│   ├── media/
+│   └── ...
