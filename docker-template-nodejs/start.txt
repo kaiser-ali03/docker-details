@@ -1,0 +1,11 @@
+#Build and Start Containers
+docker compose up -d --build
+
+#View Running Containers
+docker compose ps
+
+#View Logs
+docker compose logs -f
+
+#Stop Containers
+docker compose down
